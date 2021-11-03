@@ -61,7 +61,8 @@ function checkAnswer(currentAnswer){
 }
 function startOver(){
   gamePattern=[];
-  level=0;
-  
-
+  level=0; 
 }
+$(document).click(function(){
+  nextSequence();
+});
