@@ -63,6 +63,4 @@ function startOver(){
   gamePattern=[];
   level=0; 
 }
-$(document).click(function(){
-  nextSequence();
-});
+
