@@ -36,7 +36,7 @@ $(document).keydown(function(event){
   console.log(event.key);
   nextSequence();
 });
-$(document).touchstart(function (event){
+$(document).ontouchstart(function (event){
   console.log(event.touch);
   nextsequence();
   });
