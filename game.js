@@ -36,6 +36,10 @@ $(document).keydown(function(event){
   console.log(event.key);
   nextSequence();
 });
+$(document).touchstart(function (event){
+  console.log(event.touch);
+  nextsequence();
+  });
 function checkAnswer(currentAnswer){
   if(userChosenPattern[currentAnswer]===gamePattern[currentAnswer]){
     console.log("success");
